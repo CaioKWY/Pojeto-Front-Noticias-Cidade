@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
-<body class="home">
+<body id="tres-colunas" class="home">
 
     <!--inicio container-->
     <div id="container">
@@ -30,9 +30,68 @@
         <!--inicio conteudo-->
         <div id="conteudo">
 
-            <div id="primario">Primário</div>
-            <div id="secundario">Secundário</div>
-            <div id="lateral">Lateral</div>
+            <!--inicio conteudo primario-->
+            <div id="primario">
+                <div class="caixa destaque">
+                    <h2>Destaques</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Nova legislação</h3>
+                        <img src="./imagens/taxi.jpg" class="imagem-principal">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <a href="">Leia mais!</a>
+                    </div>
+                </div>
+            </div><!--fim conteudo primario-->
+
+            <!--inicio conteudo secundario-->
+            <div id="secundario">
+
+                <div class="caixa entrevista">
+                    <h2>Última entrevista</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Entrevista com Caio Kaway</h3>
+                        <img src="./imagens/software-developer.jpg" class="imagem-principal">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                        <a href="">Leia mais!</a>
+                    </div>
+                </div>
+
+            </div><!--fim conteudo secundário-->
+
+            <!--inicio lateral-->
+            <div id="lateral">
+
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="">Caio Kaway</a></li>
+                            <li><a href="">Ratinho Junior</a></li>
+                            <li><a href="">Oil Man</a></li>
+                            <li><a href="">Dum Peruzzo</a></li>
+                            <li><a href="">Luciano Ducci </a></li>
+                            <li><a href="">Rafael Greca</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+
+                        <form>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div><!--fim lateral-->
 
         </div><!--fim conteudo-->
 
